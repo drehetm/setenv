@@ -1,0 +1,4 @@
+{
+  "keyMappings": "# There is no <Alt> key in MacOS \n# Remap pin/unpin tabs feature to `gp` on MacOS\nunmap <a-p>\nmap gp togglePinTab\n\n# Remap mute/unmute tabs feature to `gm`\nunmap <a-m>\nmap gm toggleMuteTab",
+  "settingsVersion": "2.2.1"
+}

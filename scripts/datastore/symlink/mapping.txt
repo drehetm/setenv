@@ -1,0 +1,8 @@
+${HOME}/.gitconfig:${REPO_ROOT}/configs/git/gitconfig.ini
+${HOME}/.ietlh_env:${REPO_ROOT}/configs/zsh/ietlh_env.zsh
+${HOME}/.zprofile:${REPO_ROOT}/configs/zsh/zprofile.zsh
+${HOME}/.zshrc:${REPO_ROOT}/configs/zsh/zshrc.zsh
+${HOME_CFG}/colorls:${REPO_ROOT}/configs/colorls
+${HOME_CFG}/nvim:${REPO_ROOT}/configs/nvim
+${HOME_CFG}/starship.toml:${REPO_ROOT}/configs/zsh/gruvbox_rainbow_starship.toml
+
