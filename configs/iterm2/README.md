@@ -3,7 +3,11 @@
 ## Steps for `iTerm2` setup
 I got my latest inspiration for this setup from [this video](https://www.youtube.com/watch?v=wNQpDWLs4To).
 
+<!-- TODO: I think this is done through Karabiner-Elements. So I don't need to do anything manually. -->
+<!-- TODO: If above is correct. REMOVE NEXT LINE. -->
 ### 0 - Rearrange MacOS `Capslock` keyboard's key to become new `Escape` key
+
+### 0 - Start `iTerm2`
 
 ### 1 - Make `iTerm2` the default MacOS terminal
 Choose `iTerm2 -> Make iTerm2 Default Term` menu item.
