@@ -9,10 +9,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #
-# @ietlh comment -> this is the default Oh My Zsh theme
+# @Andrei comment -> this is the default Oh My Zsh theme
 ZSH_THEME="robbyrussell"
 #
-# @ietlh comment -> `eastwood` is my first Oh My Zsh theme
+# @Andrei comment -> `eastwood` is my first Oh My Zsh theme
 #ZSH_THEME="eastwood"
 
 # Set list of themes to pick from when loading at random
@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# @ietlh setup -> override default Oh My Zsh plugins' options with the custom values
+# @Andrei setup -> override default Oh My Zsh plugins' options with the custom values
 source "${SETENV_REPO_PATH}/configs/zsh/modules/omz_plugins_custom_opts.zsh"
 
 # Which plugins would you like to load?
@@ -79,7 +79,7 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/omz_plugins_custom_opts.zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #
-# @ietlh comment -> note that `zsh-syntax-highlighting` must be the last plugin in the list
+# @Andrei comment -> note that `zsh-syntax-highlighting` must be the last plugin in the list
 plugins=(
   git
   vi-mode
@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 ################################################################################
-#                          @ietlh settings                                     #
+#                          @Andrei settings                                    #
 ################################################################################
 
 # Include `colorls` user settings
