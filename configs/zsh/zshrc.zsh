@@ -126,6 +126,9 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/colorls.zsh"
 # Include `go` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/go.zsh"
 
+# Include `python` user settings
+source "${SETENV_REPO_PATH}/configs/zsh/modules/python.zsh"
+
 # Include `pyenv` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/pyenv.zsh"
 
