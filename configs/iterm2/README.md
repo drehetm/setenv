@@ -35,7 +35,7 @@ brew install font-fira-code-nerd-font font-hack-nerd-font
 - Press `<Cmd>+,` to open `iTerm2` settings
 - Go to `General->Settings`
 - Switch on `Load settings from a custom folder or URL`
-- Browse to `github.com/ietlh/setenv/configs/iterm2`
+- Browse to `go/src/github.com/{GITHUB_USER_NAME}/setenv/configs/iterm2`
 - Choose option `Save changes - Manually`
 - To apply settings stored in this repo -> restart `iTerm2` by quiting the application and re-opening it back
 - Choose option `Save changes - Automatically`
