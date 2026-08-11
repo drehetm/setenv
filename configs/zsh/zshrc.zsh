@@ -129,6 +129,9 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/go.zsh"
 # Include `python` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/python.zsh"
 
+# Include `ruby` user settings
+source "${SETENV_REPO_PATH}/configs/zsh/modules/ruby.zsh"
+
 # Include `pyenv` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/pyenv.zsh"
 

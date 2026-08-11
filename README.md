@@ -36,7 +36,7 @@ Setup steps are described [here](configs/iterm2/README.md).
 ### 6 - Install all applications which have configs in the `./configs` directory of the `setenv` (current one) repository
 ```zsh
 brew update
-brew install go python pyenv autoenv
+brew install go python pyenv autoenv ruby
 ```
 
 ### 7 - Perform step #5 above to apply all configs for the installed tools
