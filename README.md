@@ -22,6 +22,9 @@ brew install homerow
 ### 3 - Install better terminal (sploiler: `iTerm2`) using `Homebrew`
 > [!IMPORTANT]
 > Do not forget to turn off `iTerm2` auto-update feature.
+```zsh
+brew install iterm2
+```
 
 ### 4 - Manually setup `iTerm2`
 Setup steps are described [here](configs/iterm2/README.md).
