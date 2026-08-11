@@ -5,5 +5,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(rbenv init - --no-rehash zsh)"
 
 # Import machine's specific environment variables
-source "${HOME}/.ietlh_env"
+source "${HOME}/.setenv_cfg"
 

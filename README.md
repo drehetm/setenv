@@ -2,7 +2,7 @@
 This repo contains `local environment settings` for software development (and not only).
 
 ## Setup 'localhost - MacOS'
-## 1 - Create `configs/zsh/ietlh_env.zsh` and define _required_ environment variables there:
+## 1 - Create `configs/zsh/setenv_cfg.zsh` and define _required_ environment variables there:
 ```zsh
 # Absolute path to the 'setenv' github repository
 export SETENV_REPO_PATH="/Users/andrei/go/src/github.com/ietlh/setenv"
