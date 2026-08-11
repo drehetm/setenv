@@ -28,7 +28,6 @@ Install `Starship` prompt using its [official documentation](https://starship.rs
 
 ### 6 - Install additional fonts that I like and may want to try in future
 ```zsh
-brew tap homebrew/cask-fonts
 brew install font-fira-code-nerd-font font-hack-nerd-font
 ```
 
