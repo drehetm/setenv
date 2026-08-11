@@ -5,4 +5,4 @@ ${HOME}/.zshrc:${REPO_ROOT}/configs/zsh/zshrc.zsh
 ${HOME_CFG}/colorls:${REPO_ROOT}/configs/colorls
 ${HOME_CFG}/nvim:${REPO_ROOT}/configs/nvim
 ${HOME_CFG}/starship.toml:${REPO_ROOT}/configs/zsh/gruvbox_rainbow_starship.toml
-
+${HOME}/.config/karabiner/karabiner.json:${REPO_ROOT}/configs/karabiner/karabiner.json
