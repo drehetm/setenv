@@ -3,8 +3,8 @@
 # Ensure that Homebrew is installed
 
 # Source common utilities
-source "scripts/common/print.zsh"
-source "scripts/common/app.zsh"
+source "scripts/modules/common/print.zsh"
+source "scripts/modules/common/app.zsh"
 
 # TODO - check if Homebrew is installed
 # - 'true' then run `brew update`
