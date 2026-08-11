@@ -2,10 +2,10 @@
 This repo contains `local environment settings` for software development (and not only).
 
 ## Setup 'localhost - MacOS'
-## 1 - Create `configs/zsh/setenv_cfg.zsh` and define _required_ environment variables there:
+## 1 - Create `configs/zsh/setenv_cfg.zsh` and define _required_ environment variables there. See below example for my working laptop:
 ```zsh
 # Absolute path to the 'setenv' github repository
-export SETENV_REPO_PATH="/Users/andrei/go/src/github.com/ietlh/setenv"
+export SETENV_REPO_PATH="/Users/drehetm/go/src/github.com/drehetm/setenv"
 ```
 
 ### 1 - Setup `Hyper Key` through `Karabiner-Elements`
