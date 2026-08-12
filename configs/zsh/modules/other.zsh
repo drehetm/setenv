@@ -1,8 +1,5 @@
 # TODO: split this file into more configs and source them in ../zshrc.zsh
 
-# Set terminal's default text editor
-export EDITOR=nvim
-
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
 
