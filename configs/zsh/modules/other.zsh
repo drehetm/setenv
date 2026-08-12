@@ -3,9 +3,6 @@
 # Set terminal's default text editor
 export EDITOR=nvim
 
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /opt/homebrew/bin/terraform terraform
-
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
 
