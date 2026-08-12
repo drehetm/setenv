@@ -6,9 +6,6 @@ export EDITOR=nvim
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
 
-# Enable iTerm2 shell integration
-source "${HOME}/.iterm2_shell_integration.zsh"
-
 # Enable starship prompt
 eval "$(starship init zsh)"
 

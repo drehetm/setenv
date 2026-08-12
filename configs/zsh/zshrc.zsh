@@ -135,6 +135,9 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/ruby.zsh"
 # Include `pyenv` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/pyenv.zsh"
 
+# Include `iTerm2` user settings
+source "${SETENV_REPO_PATH}/configs/zsh/modules/iterm.zsh"
+
 # Include others user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/other.zsh"
 
