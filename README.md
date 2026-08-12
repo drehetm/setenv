@@ -8,16 +8,20 @@ This repo contains `local environment settings` for software development (and no
 export SETENV_REPO_PATH="/Users/drehetm/go/src/github.com/drehetm/setenv"
 ```
 
-### 1 - Setup `Hyper Key` through `Karabiner-Elements`
-It is needed for `Homerow`, see it's [github page](https://github.com/nchudleigh/homerow?tab=readme-ov-file#pro-tip-map-caps-lock-to-hyper-key).
+### 1 - Install `Karabiner-Elements`
+It adds `Hyper Key` which is used by `Homerow` application.
 ```zsh
 brew install karabiner-elements
 ```
+#### 1.1 Apply configuration file
+To apply `Karabiner-Elements`'s config file from this repo, run `./setup.zsh` with `l` option.
 
 ### 2 - Install `Homerow` through `Homebrew`
 ```zsh
 brew install homerow
 ```
+#### 2.1 Configure `Homerow` manually
+After installation do the same manual configuration through `Homerow`'s UI as already done on another laptop.
 
 ### 3 - Install better terminal (sploiler: `iTerm2`) using `Homebrew`
 > [!IMPORTANT]
