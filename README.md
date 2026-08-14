@@ -40,7 +40,7 @@ Setup steps are described [here](configs/iterm2/README.md).
 ### 6 - Install all needed applications
 ```zsh
 brew update
-brew install go python pyenv autoenv ruby diff-so-fancy
+brew install go python pyenv ruby diff-so-fancy direnv neovim
 ```
 
 ### 7 - Perform step #5 above to apply all configs for the installed tools
