@@ -147,5 +147,9 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/starship.zsh"
 # Include `direnv` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/direnv.zsh"
 
+# Include `colima` user settings
+source "${SETENV_REPO_PATH}/configs/zsh/modules/colima.zsh"
+
 # Include user defined aliases - should be done last
 source "${SETENV_REPO_PATH}/configs/zsh/modules/alias.zsh"
+
