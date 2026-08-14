@@ -144,5 +144,8 @@ source "${SETENV_REPO_PATH}/configs/zsh/modules/iterm.zsh"
 # Include `starship` user settings
 source "${SETENV_REPO_PATH}/configs/zsh/modules/starship.zsh"
 
+# Include `direnv` user settings
+source "${SETENV_REPO_PATH}/configs/zsh/modules/direnv.zsh"
+
 # Include user defined aliases - should be done last
 source "${SETENV_REPO_PATH}/configs/zsh/modules/alias.zsh"
