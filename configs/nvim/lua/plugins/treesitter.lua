@@ -30,20 +30,14 @@ return {
 
     vim.api.nvim_create_autocmd("FileType", {
       callback = function(args)
-        local filetype = vim.bo[args.buf].filetype
-        local lang = vim.treesitter.language.get_lang(filetype) or filetype
+        -- Enable Treesitter only when a parser is available for this buffer.
+        local has_parser = pcall(vim.treesitter.start, args.buf)
 
-        -- Auto-install missing parser
-        if not vim.treesitter.language.add(lang) then
-          treesitter.install({ lang })
+        -- Configure Treesitter indentation only for supported filetypes.
+        if has_parser then
+          vim.bo[args.buf].indentexpr =
+            "v:lua.require'nvim-treesitter'.indentexpr()"
         end
-
-        -- Enable Treesitter highlighting
-        pcall(vim.treesitter.start, args.buf)
-
-        -- Enable Treesitter indentation
-        vim.bo[args.buf].indentexpr =
-          "v:lua.require'nvim-treesitter'.indentexpr()"
       end,
     })
   end,
