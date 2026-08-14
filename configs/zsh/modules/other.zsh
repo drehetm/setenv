@@ -2,6 +2,3 @@
 
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
-
-# Enable starship prompt
-eval "$(starship init zsh)"
