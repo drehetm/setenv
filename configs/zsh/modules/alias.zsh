@@ -10,7 +10,7 @@ alias cdsetenv="cd ${SETENV_REPO_PATH}"
 alias cdyonctools="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-tools"
 
 # Show full `git status`
-alias gsa="gfa && grbom && echo && gst && echo && glo -7"
+alias gsa="gfa && grb origin/develop && echo && gst && echo && glo -7"
 
 # Use colorls instead of ls
 alias ls="colorls --git-status --no-group --no-hardlinks --sort-dirs --color=always --dark --time-style='+%y-%m-%d %H:%M:%S'"
