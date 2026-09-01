@@ -6,8 +6,11 @@ alias ...='cd ../..'
 
 # Change working directory to 'setenv' repo
 alias cdsetenv="cd ${SETENV_REPO_PATH}"
-# Change working directory to `yonc-tools` repo
-alias cdyonctools="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-tools"
+# Change working directory to `yonc-*` repositories
+alias cdtools="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-tools"
+alias cdrouter="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-router"
+alias cdadmin="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-router-admin"
+alias cdenvoy="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-envoy"
 
 # Show full `git status`
 alias gsa="gfa && grb origin/develop && echo && gst && echo && glo -7"
