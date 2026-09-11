@@ -5,7 +5,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Left Command: Russian; Right Command: English",
+                        "description": "Right Command: Russian; Left Command: English",
                         "manipulators": [
                             {
                                 "from": {
@@ -22,7 +22,7 @@
                                         "lazy": true
                                     }
                                 ],
-                                "to_if_alone": [{ "select_input_source": { "language": "^ru$" } }],
+                                "to_if_alone": [{ "select_input_source": { "language": "^en$" } }],
                                 "to_if_held_down": [{ "key_code": "left_command" }],
                                 "type": "basic"
                             },
@@ -41,7 +41,7 @@
                                         "lazy": true
                                     }
                                 ],
-                                "to_if_alone": [{ "select_input_source": { "language": "^en$" } }],
+                                "to_if_alone": [{ "select_input_source": { "language": "^ru$" } }],
                                 "to_if_held_down": [{ "key_code": "right_command" }],
                                 "type": "basic"
                             }
