@@ -13,7 +13,8 @@ alias cdadmin="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-router-
 alias cdenvoy="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-envoy"
 
 # Show full `git status`
-alias gsa="gfa && grb origin/develop && echo && gst && echo && glo -7"
+alias gsam="gfa && grb origin/master && echo && gst && echo && glo -5"
+alias gsad="gfa && grb origin/develop && echo && gst && echo && glo -5"
 
 # Use colorls instead of ls
 alias ls="colorls --git-status --no-group --no-hardlinks --sort-dirs --color=always --dark --time-style='+%y-%m-%d %H:%M:%S'"
