@@ -11,6 +11,7 @@ alias cdtools="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-tools"
 alias cdrouter="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-router"
 alias cdadmin="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-router-admin"
 alias cdenvoy="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-envoy"
+alias cdsynthetic="cd ~/go/src/gitlab.services.yomobile.in/yonc/backend/yonc-synthetic"
 
 # Show full `git status`
 alias gsam="gfa && grb origin/master && echo && gst && echo && glo -5"
